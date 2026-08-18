@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reset PIN - BNI DigiCS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- TOP NAVIGATION (SIMPLE BACK) -->
+    <div class="top-nav-simple">
+        <a href="index.html" class="btn-back"><i class="fa-solid fa-arrow-left"></i> Kembali ke Beranda</a>
+    </div>
+
+    <!-- PROGRESS INDICATOR -->
+    <div class="progress-container">
+        <div class="progress-text" id="progress-text">LANGKAH 1 / 4</div>
+        <div class="progress-bar-bg">
+            <div class="progress-bar-fill" id="progress-fill"></div>
+        </div>
+    </div>
+
+    <!-- WRAPPER UNTUK BISA DI-HIDE SAAT KLIK SELESAI -->
+    <div id="main-tutorial-wrapper">
+        <main class="tutorial-container" id="tutorial-reset">
+            
+            <div class="tutorial-header">
+                <h1 class="text-dark">Reset PIN Kartu Debit</h1>
+                <p>Scroll ke bawah untuk mengikuti panduan.</p>
+                <i class="fa-solid fa-chevron-down scroll-indicator animate-bounce"></i>
+            </div>
+
+            <!-- STEP 01 -->
+            <div class="step" data-step="1" data-total="4">
+                <div class="step-number">STEP 01</div>
+                <h2 class="step-title">Buka wondr dan Pilih Rekening</h2>
+                <div class="img-wrapper">
+                    <img src="assets/images/reset-pin/step-01.png" alt="Pilih Rekening" class="step-image">
+                </div>
+                <div class="step-desc">
+                    <p>Buka aplikasi wondr by BNI, kemudian pilih rekening yang kartu debitnya akan di-reset PIN.</p>
+                </div>
+            </div>
+
+            <!-- STEP 02 -->
+            <div class="step" data-step="2" data-total="4">
+                <div class="step-number">STEP 02</div>
+                <h2 class="step-title">Pilih Menu "Lihat Kartu"</h2>
+                <div class="img-wrapper">
+                    <img src="assets/images/reset-pin/step-02.png" alt="Lihat Kartu" class="step-image">
+                </div>
+                <div class="step-desc">
+                    <p>Setelah memilih rekening, pilih menu "Lihat Kartu" untuk melanjutkan proses.</p>
+                </div>
+            </div>
+
+            <!-- STEP 03 -->
+            <div class="step" data-step="3" data-total="4">
+                <div class="step-number">STEP 03</div>
+                <h2 class="step-title">Pilih "Atur PIN" dan Buat PIN Baru</h2>
+                <div class="img-wrapper">
+                    <img src="assets/images/reset-pin/step-03.png" alt="Atur PIN" class="step-image">
+                </div>
+                <div class="step-desc">
+                    <p>Pilih menu "Atur PIN", kemudian buat PIN baru sesuai petunjuk yang diberikan pada aplikasi.</p>
+                </div>
+            </div>
+
+            <!-- STEP 04 : SUCCESS OPTIONS -->
+            <div class="step success-step" data-step="4" data-total="4">
+                <div class="success-icon-wrapper">
+                    <div class="success-glow"></div>
+                    <i class="fa-solid fa-check success-icon animate-pop"></i>
+                </div>
+                <h2 class="step-title text-center mt-3">Reset PIN Berhasil!</h2>
+                <div class="step-desc text-center">
+                    <p>Reset PIN kartu debit telah selesai. Pastikan PIN baru Anda selalu dirahasiakan.</p>
+                    
+                    <div class="end-action-buttons">
+                        <a href="index.html" class="btn-outline">Kembali ke Beranda</a>
+                        <button class="btn-primary btn-selesai">Selesai <i class="fa-solid fa-check-double"></i></button>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+    <!-- THANK YOU SCREEN -->
+    <div id="thankYouScreen" class="thank-you-screen hidden">
+        <div class="thank-you-content animate-pop">
+            <div class="ty-icon">
+                <i class="fa-solid fa-hand-holding-heart"></i>
+            </div>
+            <h2>Terima Kasih!</h2>
+            <p>Anda telah menyelesaikan panduan interaktif BNI DigiCS.</p>
+            <p class="small-text mt-2">Semoga panduan ini bermanfaat untuk Anda.</p>
+            <a href="index.html" class="btn-primary mt-3"><i class="fa-solid fa-house"></i> Halaman Utama</a>
+        </div>
+    </div>
+
+    <!-- BACK TO TOP BUTTON -->
+    <button class="back-to-top" id="backToTopBtn">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>

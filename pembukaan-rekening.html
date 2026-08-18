@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pembukaan Rekening - BNI DigiCS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- TOP NAVIGATION (SIMPLE BACK) -->
+    <div class="top-nav-simple">
+        <a href="index.html" class="btn-back"><i class="fa-solid fa-arrow-left"></i> Kembali ke Beranda</a>
+    </div>
+
+    <!-- PROGRESS INDICATOR -->
+    <div class="progress-container">
+        <div class="progress-text" id="progress-text">LANGKAH 01 / 26</div>
+        <div class="progress-bar-bg">
+            <div class="progress-bar-fill" id="progress-fill"></div>
+        </div>
+    </div>
+
+    <!-- WRAPPER UNTUK BISA DI-HIDE SAAT KLIK SELESAI -->
+    <div id="main-tutorial-wrapper">
+        <main class="tutorial-container" id="tutorial-pembukaan">
+            
+            <div class="tutorial-header">
+                <h1 class="text-dark">Buka Rekening Baru</h1>
+                <p>Scroll ke bawah untuk mengikuti panduan.</p>
+                <i class="fa-solid fa-chevron-down scroll-indicator animate-bounce"></i>
+            </div>
+
+            <!-- STEP 01 -->
+            <div class="step" data-step="1" data-total="26">
+                <div class="step-number">STEP 01</div>
+                <h2 class="step-title">Download Aplikasi</h2>
+                <div class="img-wrapper">
+                    <img src="assets/images/pembukaan/step-01.png" alt="Download Aplikasi" class="step-image">
+                </div>
+                <div class="step-desc">
+                    <p>Unduh aplikasi wondr by BNI melalui sumber resmi aplikasi (Play Store/App Store) sesuai perangkat yang digunakan.</p>
+                </div>
+            </div>
+
+            <!-- STEP 02 -->
+            <div class="step" data-step="2" data-total="26">
+                <div class="step-number">STEP 02</div>
+                <h2 class="step-title">Buka Aplikasi dan Tekan "Mulai Sekarang"</h2>
+                <div class="img-wrapper">
+                    <img src="assets/images/pembukaan/step-02.png" alt="Mulai Sekarang" class="step-image">
+                </div>
+                <div class="step-desc">
+                    <p>Buka aplikasi wondr by BNI, kemudian tekan tombol "Mulai Sekarang" untuk memulai proses.</p>
+                </div>
+            </div>
+
+            <!-- STEP 03 -->
+            <div class="step" data-step="3" data-total="26">
+                <div class="step-number">STEP 03</div>
+                <h2 class="step-title">Setujui Ketentuan</h2>
+                <div class="img-wrapper">
+                    <img src="assets/images/pembukaan/step-03.png" alt="Setujui Ketentuan" class="step-image">
+                </div>
+                <div class="step-desc">
+                    <p>Setelah proses dimulai, centang setiap ketentuan yang ditampilkan kemudian tekan tombol "Saya Setuju".</p>
+                </div>
+            </div>
+
+            <!-- STEP 04 -->
+            <div class="step" data-step="4" data-total="26">
+                <div class="step-number">STEP 04</div>
+                <h2 class="step-title">Isi Nama Panggilan</h2>
+                <div class="img-wrapper">
+                    <img src="assets/images/pembukaan/step-04.png" alt="Nama Panggilan" class="step-image">
+                </div>
+                <div class="step-desc">
+                    <p>Masukkan nama panggilan sesuai petunjuk yang ditampilkan pada aplikasi.</p>
+                </div>
+            </div>
+
+            <!-- STEP 05 -->
+            <div class="step" data-step="5" data-total="26">
+                <div class="step-number">STEP 05</div>
+                <h2 class="step-title">Isi Nomor Telepon</h2>
+                <div class="img-wrapper">
+                    <img src="assets/images/pembukaan/step-05.png" alt="Nomor Telepon" class="step-image">
+                </div>
+                <div class="step-desc">
+                    <p>Masukkan nomor telepon aktif yang dapat digunakan untuk proses verifikasi.</p>
+                </div>
+            </div>
+
+            <!-- STEP 06 -->
+            <div class="step" data-step="6" data-total="26">
+                <div class="step-number">STEP 06</div>
+                <h2 class="step-title">Pilih Metode OTP dan Masukkan Kode OTP</h2>
+                <div class="img-wrapper otp-anim-wrapper">
+                    <img src="assets/images/pembukaan/step-06.png" alt="Kode OTP" class="step-image">
+                    <div class="anim-overlay otp-box">
+                        <span>*</span><span>*</span><span>*</span><span>*</span>
+                    </div>
+                </div>
+                <div class="step-desc">
+                    <p>Pilih metode OTP yang tersedia, kemudian masukkan kode OTP yang diterima sesuai instruksi aplikasi.</p>
+                </div>
+            </div>
+
+            <!-- STEP 07 -->
+            <div class="step" data-step="7" data-total="26">
+                <div class="step-number">STEP 07</div>
+                <h2 class="step-title">Verifikasi e-KTP</h2>
+                <div class="img-wrapper scan-anim-wrapper">
+                    <img src="assets/images/pembukaan/step-07.png" alt="Verifikasi e-KTP" class="step-image">
+                    <div class="anim-overlay scanner-line"></div>
+                </div>
+                <div class="step-desc">
+                    <p>Tekan "Lanjut", lalu periksa semua data apakah sudah sesuai seperti yang ada di e-KTP</p>
+                </div>
+            </div>
+
+            <!-- STEP 08 -->
+            <div class="step" data-step="8" data-total="26">
+                <div class="step-number">STEP 08</div>
+                <h2 class="step-title">Verifikasi Wajah</h2>
+                <div class="img-wrapper face-anim-wrapper">
+                    <img src="assets/images/pembukaan/step-08.png" alt="Verifikasi Wajah" class="step-image">
+                </div>
+                <div class="step-desc">
+                    <p>Ikuti instruksi yang diberikan aplikasi untuk melakukan verifikasi wajah.</p>
+                </div>
+            </div>
+
+            <!-- STEP 09 -->
+            <div class="step" data-step="9" data-total="26">
+                <div class="step-number">STEP 09</div>
+                <h2 class="step-title">Pembuatan Password Login</h2>
+                <div class="img-wrapper lock-anim-wrapper">
+                    <img src="assets/images/pembukaan/step-09.png" alt="Password Login" class="step-image">
+                </div>
+                <div class="step-desc">
+                    <p>Buat password login sesuai ketentuan yang ditampilkan pada aplikasi.</p>
+                </div>
+            </div>
+
+            <!-- STEP 10 -->
+            <div class="step" data-step="10" data-total="26">
+                <div class="step-number">STEP 10</div>
+                <h2 class="step-title">Pembuatan PIN wondr</h2>
+                <div class="img-wrapper keypad-anim-wrapper">
+                    <img src="assets/images/pembukaan/step-10.png" alt="PIN wondr" class="step-image">
+                </div>
+                <div class="step-desc">
+                    <p>Buat PIN wondr berupa 6 digit angka sesuai petunjuk aplikasi.</p>
+                </div>
+            </div>
+
+            <!-- STEP 11 -->
+            <div class="step" data-step="11" data-total="26">
+                <div class="step-number">STEP 11</div>
+                <h2 class="step-title">Isi Alamat Email Pribadi</h2>
+                <div class="img-wrapper email-anim-wrapper">
+                    <img src="assets/images/pembukaan/step-11.png" alt="Alamat Email" class="step-image">
+                    <i class="fa-regular fa-envelope anim-icon animate-float"></i>
+                </div>
+                <div class="step-desc">
+                    <p>Masukkan alamat email pribadi yang aktif sesuai petunjuk aplikasi untuk keperluan notifikasi.</p>
+                </div>
+            </div>
+
+            <!-- STEP 12 : CAROUSEL -->
+            <div class="step" data-step="12" data-total="26">
+                <div class="step-number">STEP 12</div>
+                <h2 class="step-title">Pilih Jenis Tabungan</h2>
+                
+                <div class="carousel-wrapper">
+                    <button class="carousel-btn left" id="btn-prev"><i class="fa-solid fa-chevron-left"></i></button>
+                    
+                    <div class="carousel-container" id="tabungan-carousel">
+                        <div class="carousel-slide">
+                            <img src="assets/images/tabungan/tabungan-01.png" alt="Tabungan 1">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="assets/images/tabungan/tabungan-02.png" alt="Tabungan 2">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="assets/images/tabungan/tabungan-03.png" alt="Tabungan 3">
+                        </div>
+                    </div>
+                    
+                    <button class="carousel-btn right" id="btn-next"><i class="fa-solid fa-chevron-right"></i></button>
+                </div>
+                
+                <div class="carousel-indicators" id="carousel-dots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+
+                <div class="step-desc">
+                    <p>Pilih jenis tabungan atau rekening yang paling sesuai dengan kebutuhan Anda. Geser (swipe) untuk melihat pilihan lainnya.</p>
+                </div>
+            </div>
+
+            <!-- STEP 13 HINGGA 25 -->
+            <!-- ... (Sama seperti sebelumnya) ... -->
+            <div class="step" data-step="13" data-total="26">
+                <div class="step-number">STEP 13</div>
+                <h2 class="step-title">Isi Data Personal</h2>
+                <div class="img-wrapper"><img src="assets/images/pembukaan/step-13.png" class="step-image"></div>
+                <div class="step-desc"><p>Isi data personal sesuai informasi yang diminta pada aplikasi.</p></div>
+            </div>
+
+            <div class="step" data-step="14" data-total="26">
+                <div class="step-number">STEP 14</div>
+                <h2 class="step-title">Isi Nama Ibu Kandung</h2>
+                <div class="img-wrapper"><img src="assets/images/pembukaan/step-14.png" class="step-image"></div>
+                <div class="step-desc"><p>Masukkan nama lengkap ibu kandung sesuai informasi yang diminta.</p></div>
+            </div>
+
+            <div class="step" data-step="15" data-total="26">
+                <div class="step-number">STEP 15</div>
+                <h2 class="step-title">Isi Alamat e-KTP</h2>
+                <div class="img-wrapper"><img src="assets/images/pembukaan/step-15.png" class="step-image"></div>
+                <div class="step-desc"><p>Masukkan alamat sesuai dengan data e-KTP.</p></div>
+            </div>
+
+            <div class="step" data-step="16" data-total="26">
+                <div class="step-number">STEP 16</div>
+                <h2 class="step-title">Pilih Pekerjaan</h2>
+                <div class="img-wrapper"><img src="assets/images/pembukaan/step-16.png" class="step-image"></div>
+                <div class="step-desc"><p>Pilih jenis pekerjaan sesuai kondisi sebenarnya.</p></div>
+            </div>
+
+            <div class="step" data-step="17" data-total="26">
+                <div class="step-number">STEP 17</div>
+                <h2 class="step-title">Data Tempat Bekerja</h2>
+                <div class="img-wrapper"><img src="assets/images/pembukaan/step-17.png" class="step-image"></div>
+                <div class="step-desc"><p>Isi informasi mengenai tempat bekerja Anda.</p></div>
+            </div>
+
+            <div class="step" data-step="18" data-total="26">
+                <div class="step-number">STEP 18</div>
+                <h2 class="step-title">Sumber Dana Utama</h2>
+                <div class="img-wrapper"><img src="assets/images/pembukaan/step-18.png" class="step-image"></div>
+                <div class="step-desc"><p>Pilih sumber dana utama Anda.</p></div>
+            </div>
+
+            <div class="step" data-step="19" data-total="26">
+                <div class="step-number">STEP 19</div>
+                <h2 class="step-title">Penghasilan Bulanan</h2>
+                <div class="img-wrapper"><img src="assets/images/pembukaan/step-19.png" class="step-image"></div>
+                <div class="step-desc"><p>Masukkan penghasilan bulanan sesuai kondisi sebenarnya.</p></div>
+            </div>
+
+            <div class="step" data-step="20" data-total="26">
+                <div class="step-number">STEP 20</div>
+                <h2 class="step-title">Tujuan Buka Rekening</h2>
+                <div class="img-wrapper"><img src="assets/images/pembukaan/step-20.png" class="step-image"></div>
+                <div class="step-desc"><p>Pilih tujuan pembukaan rekening Anda.</p></div>
+            </div>
+
+            <div class="step" data-step="21" data-total="26">
+                <div class="step-number">STEP 21</div>
+                <h2 class="step-title">Pilih Cabang Pengelola</h2>
+                <div class="img-wrapper"><img src="assets/images/pembukaan/step-21.png" class="step-image"></div>
+                <div class="step-desc"><p>Pilih cabang BNI yang akan mengelola rekening.</p></div>
+            </div>
+
+            <div class="step" data-step="22" data-total="26">
+                <div class="step-number">STEP 22</div>
+                <h2 class="step-title">Konfirmasi Data</h2>
+                <div class="img-wrapper"><img src="assets/images/pembukaan/step-22.png" class="step-image"></div>
+                <div class="step-desc"><p>Periksa seluruh data yang telah diisi, lalu Konfirmasi Data & Lanjut.</p></div>
+            </div>
+
+            <div class="step" data-step="23" data-total="26">
+                <div class="step-number">STEP 23</div>
+                <h2 class="step-title">Buat Tanda Tangan</h2>
+                <div class="img-wrapper signature-anim-wrapper">
+                    <img src="assets/images/pembukaan/step-23.png" class="step-image">
+                    <i class="fa-solid fa-pen-nib anim-icon sign-pen"></i>
+                </div>
+                <div class="step-desc"><p>Buat tanda tangan digital, dan tekan "lanjut" ketika tanda tangan sudah sesuai.</p></div>
+            </div>
+
+            <div class="step" data-step="24" data-total="26">
+                <div class="step-number">STEP 24</div>
+                <h2 class="step-title">Buat PIN Debit Virtual</h2>
+                <div class="img-wrapper">
+                    <img src="assets/images/pembukaan/step-24.png" class="step-image">
+                </div>
+                <div class="step-desc"><p>Buat PIN Debit Virtual 6 digit.</p></div>
+            </div>
+
+            <div class="step" data-step="25" data-total="26">
+                <div class="step-number">STEP 25</div>
+                <h2 class="step-title">Verifikasi Email</h2>
+                <div class="img-wrapper">
+                    <img src="assets/images/pembukaan/step-25.png" class="step-image">
+                </div>
+                <div class="step-desc"><p>Lakukan verifikasi melalui email yang dikirimkan.</p></div>
+            </div>
+
+            <!-- STEP 26 : SUCCESS OPTIONS -->
+            <div class="step success-step" data-step="26" data-total="26">
+                <div class="success-icon-wrapper">
+                    <div class="success-glow"></div>
+                    <i class="fa-solid fa-check success-icon animate-pop"></i>
+                </div>
+                <h2 class="step-title text-center mt-3">Pembukaan Rekening Selesai!</h2>
+                <div class="step-desc text-center">
+                    <p>Selamat! Seluruh tahapan pembukaan rekening melalui aplikasi wondr by BNI telah selesai.</p>
+                    
+                    <div class="end-action-buttons">
+                        <a href="index.html" class="btn-outline">Kembali ke Beranda</a>
+                        <button class="btn-primary btn-selesai">Selesai <i class="fa-solid fa-check-double"></i></button>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- THANK YOU SCREEN (HIDDEN BY DEFAULT) -->
+    <div id="thankYouScreen" class="thank-you-screen hidden">
+        <div class="thank-you-content animate-pop">
+            <div class="ty-icon">
+                <i class="fa-solid fa-hand-holding-heart"></i>
+            </div>
+            <h2>Terima Kasih!</h2>
+            <p>Anda telah menyelesaikan panduan interaktif BNI DigiCS.</p>
+            <p class="small-text mt-2">Semoga panduan ini bermanfaat untuk Anda.</p>
+            <a href="index.html" class="btn-primary mt-3"><i class="fa-solid fa-house"></i> Halaman Utama</a>
+        </div>
+    </div>
+
+    <!-- BACK TO TOP BUTTON -->
+    <button class="back-to-top" id="backToTopBtn">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
